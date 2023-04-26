@@ -21,13 +21,21 @@ Build a Personal Portfolio Website including a discussion section where you will
 # References Links:
 
 https://www.youtube.com/watch?v=ks6wF_ooYqo&pp=ygUWZG93bmxvYWQgdnNjb2RlIHB5dGhvbg%3D%3D
+
 https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
 https://www.w3schools.com/
+
 https://css-tricks.com/
+
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
 https://tailwindcss.com/docs/installation
+
 https://semantic-ui.com/elements/button.html
+
 https://picturepan2.github.io/spectre/getting-started.html
+
 https://docs.djangoproject.com/en/4.2/
 
 You are free to use youtube and any other resources for the task.
