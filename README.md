@@ -10,3 +10,9 @@ git commit: Save changes to the local repository with a commit message. (Command
 git push: Send changes to the remote repository. (Command: git push [options] < repository-name > < branch-name >
 
 Make sure to use meaningful commit messages that describe the changes you've made. Also, pull changes from the remote repository before pushing your changes to avoid conflicts.
+
+# Submission
+
+Make a folder of your name under task1 folder: Click add file, then write "folder_name/"  (Folder will be created)
+
+Add all your code files under your name folder 
