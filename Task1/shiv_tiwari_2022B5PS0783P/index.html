@@ -1,0 +1,498 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+<title>My Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+<style>
+   *{
+    margin: 0;
+    padding: 0;
+
+   }
+   
+   body{
+        background: gray;
+         color:aliceblue;  
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    align-items: center;
+    height: 80px;
+    background-color: beige;
+ }
+ nav ul{
+    display: flex;
+    justify-content: center;
+    }
+    nav ul li{
+         list-style: none;
+         margin:0 30px;
+    }
+    .portfolio{
+       
+        font-size: larger;
+        font-weight: 600;  
+        }
+    .section1{
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+margin-bottom: 50px;
+    }
+    .section1 div{
+        width: 33%;
+    }
+.leftsection{
+    
+    color:white;
+    justify-content: left;
+    font-size: 10mm;
+}
+
+ span{
+    color: black;
+    font-size: 1.5cm;
+    
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    
+   
+   
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    margin: auto;
+}
+  
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+main hr{
+     
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+.education{
+
+align-self: flex-start;
+
+
+}
+.boxtext{
+    font-size: 15mm;
+    font-family: 'poppins';
+}
+.photo {
+    margin: 20px;
+    align-self: flex-end;
+    
+}
+ .educationtext{
+    
+    justify-content: left;
+    font-size: 10mm;
+    width: 40%;
+    margin-top: 10px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .section2 h1 hr{
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section3{
+        display: flex;
+justify-content: space-between;
+
+margin-top: 90px;
+
+    }
+    #typed-text{
+        font-size: 30mm;
+        font-family: 'poppins';
+    }
+    .section4{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    #element{
+        font-size: 15mm;
+        font-family: 'poppins';
+        font-weight: 500;
+    }
+    .section5{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+    }
+    #iml{
+        font-size: 15mm;
+        font-family: 'poppins';
+        font-weight: 500;
+    }
+   
+    .container{
+      width: 100%;
+      height: 130vh;
+      
+      color: black;
+      display: flex;
+      align-items: center;
+justify-content: center;    }
+.header{
+display: flex;
+justify-content: center;
+color: black;}
+
+.contact {
+    padding: 5px;
+   background-image: url(contact_us_2.jpg);
+    border-radius: 5px;
+   background-size: cover;
+   margin-top: 3px;
+    
+}
+
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    padding: 2vw 4vw;
+    width: 30%;
+    max-width: 600px;
+    border: 30px;
+    margin-top: 60px;
+border-radius: 15px;
+
+}
+
+.label {
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    
+}
+
+button {
+    padding: 10px;
+    background-color:rgb(23, 155, 23);
+    color: white;
+    font-weight: 600;
+    font-size: 5mm;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(29, 137, 180);
+}
+.socialmedia{
+    margin-bottom: 40px;
+    font-family: 'poppins';
+    color: black;
+}
+.social-media {
+
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 5px;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-size: 7mm;
+
+}
+
+.social-media img {
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links li a:hover {
+  color: red;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="portfolio">MY PORTFOLIO</div>
+        <div class="navigation">
+       <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about-me">ABOUT ME</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+       </ul>
+        </div>
+    </nav>
+</header>
+  <main>
+    <span>Hi!<br> I Am Shiv</span></span>
+    <section id="home" class="section1">
+        <div class="leftsection" style="border-style: inset;">
+            I am student of BITS Pilani,Pilani . I am currently pursuing Ms Physics .<br>I am interested in technology and finance.I like to  read books and play badminton. 
+        </div>
+        <div class="rightsection">
+<img id="borderimg"><img src="profile.jpg" alt=""  width="400px" height="500px" style="border-style: solid; border-color: black;"  >
+        </div>
+        </section>
+       <section class="socialmedia">
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100008410636816&mibextid=ZbWKwL" target="_blank">Check my facebook profile<i class="fab fa-facebook"></i></a>
+            <br>
+            <a href="https://instagram.com/shiv_tiwari777?igshid=ZDc4ODBmNjlmNQ==" target="_blank">Check my intagram profile<i class="fab fa-instagram"></i></a>
+          
+          </div>
+      </section>
+        
+
+<hr>
+<hr>
+<section id="about-me" class="section2">
+    <h1 style="font-size: 15mm; margin-bottom: 10px;">About Me<hr></h1>
+    
+    <div class="education">
+      <span class="boxtext" style="margin-bottom: 10px;">Educational Qualification</span>
+    </div>
+    
+    <div class="content">
+      <div class="educationtext">
+        <ul style="margin-top: 0;font-family: 'poppins';">
+          <li style= "margin-bottom: 5px;">Primary Education: Mount Carmel School</li>
+          <li style="margin-bottom: 5px;">Secondary Education: Mount Carmel School</li>
+          <li style="margin-bottom: 5px;">Higher Secondary Education: DPS RKPurum</li>
+          <li style="margin-bottom: 5px;">Currently: Graduation from Birla Institute of Technology and Science</li>
+        </ul>
+      </div>
+    
+      <div class="photo">
+        <img src="5481.jpg_860.jpg" width="500px" height="400px">
+      </div>
+    </div>
+    </section>
+    <hr>
+    <section class="section3">
+        <div class="leftsection" style="font-family: 'poppins';font-size: 20mm;color: black;" >
+Skills
+        </div>
+        <div id="typed-text" class="rightsection" >
+
+        </div>
+        <script>
+            var options = {
+              strings: [,'html and CSS','Web Development','C Programming','MATLAB'],
+              typeSpeed: 80,
+              backSpeed:70,
+              loop: true
+            
+            
+            };
+        
+            var typed = new Typed('#typed-text', options);
+          </script>
+          
+
+ </section>
+
+
+
+ <hr style="margin-top: 90px;margin-bottom: 40px;">
+
+<section class="section4">
+<div id="element" class="leftsection"  >
+   <script>
+        var options = {
+          strings: [,'Project 1: Details','Project 2: Details','Project 3: Details'],
+         typeSpeed: 100,
+          backSpeed:100,
+          loop: true
+        
+        
+        };
+    
+        var typed = new Typed('#element', options);
+      </script>
+</div>
+<div  class="rightsection" style="font-family: 'poppins';font-size: 20mm;color: black;">
+Work <br>Experience
+</div>
+</section>
+<hr style="margin-top: 90px;margin-bottom: 40px;">
+
+<section class="section5">
+<div  class="leftsection" style="font-family: 'poppins';font-size: 20mm;color: black;"  >
+   Achievements
+    
+</div>
+<div  id="iml" class="rightsection" >
+    <script>
+         var options = {
+           strings: [,'Achievement 1','Achievement 2','Achievement 3'],
+          typeSpeed: 100,
+           backSpeed:100,
+           loop: true
+          };
+     
+        var typed = new Typed('#iml', options);
+       </script>
+</div>
+</section> 
+<hr>
+<hr>
+
+<section id="contact" class="contact">
+<div class ="header">
+    <h1>CONTACT THROUGH</h1>
+</div>
+
+<div class="container">
+    <form id="contact-form" onsubmit="mail();reset();return false;">
+        <label for="fname"> Name</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Name"><br><br>
+
+        <label for="phone">Phone No</label><br>
+        <input type="text" id="phone" name="phone" placeholder="Phone No"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Email"><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" cols="50" rows="5" placeholder="Write your queries here"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+       
+</div>
+</section>  
+
+<footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <p style="color: black;">&copy; shivtiwariportfolio</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</main> 
+      
+  
+       
+    
+</body>
+<script>
+    function mail() {
+      Email.send({
+        SecureToken:"21c80774-90b5-47cf-98da-f03b36a9ac59",
+        To: 'f20220783@pilani.bits-pilani.ac.in',
+        From: document.getElementById("email").value,
+        Subject: "Enquiry",
+        Body:
+          "Name: " + document.getElementById("fname").value +
+          "<br>Email: " + document.getElementById("email").value +
+          "<br>Phone No: " + document.getElementById("phone").value +
+          "<br>Message: " + document.getElementById("message").value
+      }).then(function (message) {
+        alert("Email sent successfully!");
+      });
+    }
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      mail();
+      this.reset();
+    });
+  </script>
+</html>
